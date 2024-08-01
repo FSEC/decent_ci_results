@@ -3,10 +3,10 @@ title: C.D.S.-Development-7713fcd70bf79be7c093e7909e1092603ba4f4bc-Win64-Windows
 permalink: C.D.S.-Development-7713fcd70bf79be7c093e7909e1092603ba4f4bc-Win64-Windows-10-VisualStudio-16.html
 tags: data
 layout: ci_results
-date: '2024-08-01 22:50:08'
+date: '2024-08-01 22:50:48'
 unhandled_failure: false
-build_error_count: 0
-build_warning_count: 0
+build_error_count: 9
+build_warning_count: 1
 package_error_count: 0
 package_warning_count: 0
 test_count: 0
@@ -29,10 +29,10 @@ pull_request_issue_id: ''
 pull_request_base_repository: ''
 pull_request_base_ref: ''
 device_id: Win64-Windows-10-VisualStudio-16
-pending: true
+pending: false
 analyze_only: false
-build_time: 
-test_time: 
+build_time: 38.234337
+test_time: 1.328191
 package_time: 
 install_time: 
 results_repository: FSEC/decent_ci_results
@@ -55,7 +55,76 @@ performance_test_count: 0
 ---
 {
   "build_results": [
-
+    {
+      "filename": "../../../Python/Python39/lib/multiprocessing/process.py",
+      "linenumber": "108",
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "error"
+    },
+    {
+      "filename": "../../../Python/Python39/lib/multiprocessing/process.py",
+      "linenumber": "315",
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "error"
+    },
+    {
+      "filename": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(241,5)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "MSB8066 Custom build for 'C:\\run_ci\\ci_runs2\\clone_branch\\build\\Products\\Energy+.idd;C:\\run_ci\\ci_runs2\\clone_branch\\build\\CMakeFiles\\228904398db59f2d0e3ce6141b540c97\\EmbeddedEpJSONSchema.cc.rule' exited with code 1. [C:\\run_ci\\ci_runs2\\clone_branch\\build\\idd\\embedded_epjson_source.vcxproj]"
+    },
+    {
+      "filename": "Python",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "could not convert string to float: '24.1.101'"
+    },
+    {
+      "filename": "ValueError",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "could",
+      "message": "not '24.1.101'"
+    },
+    {
+      "filename": "idd/schema/generate_epJSON_schema.py",
+      "linenumber": "84",
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "error"
+    },
+    {
+      "filename": "idd/schema/idd_parser.py",
+      "linenumber": "217",
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "error"
+    },
+    {
+      "filename": "idd/schema/idd_parser.py",
+      "linenumber": "409",
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "error"
+    },
+    {
+      "filename": "idd/schema/idd_parser.py",
+      "linenumber": "541",
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "error"
+    },
+    {
+      "filename": "idd/schema/idd_parser.py",
+      "linenumber": "847",
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "error"
+    }
   ],
   "test_results": [
 
@@ -69,10 +138,10 @@ performance_test_count: 0
     "permalink": "C.D.S.-Development-7713fcd70bf79be7c093e7909e1092603ba4f4bc-Win64-Windows-10-VisualStudio-16.html",
     "tags": "data",
     "layout": "ci_results",
-    "date": "2024-08-01 22:50:08",
+    "date": "2024-08-01 22:50:48",
     "unhandled_failure": false,
-    "build_error_count": 0,
-    "build_warning_count": 0,
+    "build_error_count": 9,
+    "build_warning_count": 1,
     "package_error_count": 0,
     "package_warning_count": 0,
     "test_count": 0,
@@ -95,10 +164,10 @@ performance_test_count: 0
     "pull_request_base_repository": "",
     "pull_request_base_ref": "",
     "device_id": "Win64-Windows-10-VisualStudio-16",
-    "pending": true,
+    "pending": false,
     "analyze_only": false,
-    "build_time": null,
-    "test_time": null,
+    "build_time": 38.234337,
+    "test_time": 1.328191,
     "package_time": null,
     "install_time": null,
     "results_repository": "FSEC/decent_ci_results",
