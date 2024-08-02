@@ -3,10 +3,10 @@ title: C.D.S.-Development-d19c4d332558e0db92361cc414f9b7a3bc146c06-Win64-Windows
 permalink: C.D.S.-Development-d19c4d332558e0db92361cc414f9b7a3bc146c06-Win64-Windows-10-VisualStudio-16.html
 tags: data
 layout: ci_results
-date: '2024-08-02 16:18:34'
+date: '2024-08-02 16:20:16'
 unhandled_failure: false
-build_error_count: 0
-build_warning_count: 0
+build_error_count: 1
+build_warning_count: 1
 package_error_count: 0
 package_warning_count: 0
 test_count: 0
@@ -29,10 +29,10 @@ pull_request_issue_id: ''
 pull_request_base_repository: ''
 pull_request_base_ref: ''
 device_id: Win64-Windows-10-VisualStudio-16
-pending: true
+pending: false
 analyze_only: false
-build_time: 
-test_time: 
+build_time: 99.874998
+test_time: 1.468819
 package_time: 
 install_time: 
 results_repository: FSEC/decent_ci_results
@@ -55,7 +55,20 @@ performance_test_count: 0
 ---
 {
   "build_results": [
-
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\build\\Products\\Release\\energyplusapi.dll",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "fatal",
+      "message": "error 1 unresolved externals [C:\\run_ci\\ci_runs2\\clone_branch\\build\\src\\EnergyPlus\\energyplusapi.vcxproj]"
+    },
+    {
+      "filename": "energypluslib.lib(EquipAndOperations.obj)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "LNK2019 unresolved external symbol \"public: double __cdecl EnergyPlus::EIRPlantLoopHeatPumps::EIRPlantLoopHeatPump::estimateCurrentLoadSideCapacity(struct EnergyPlus::EnergyPlusData &)\" (?estimateCurrentLoadSideCapacity@EIRPlantLoopHeatPump@EIRPlantLoopHeatPumps@EnergyPlus@@QEAANAEAUEnergyPlusData@3@@Z) referenced in function \"public: void __cdecl EnergyPlus::DataPlant::ChillerHeaterSupervisoryOperationData::ManageHWFC_CH_AWHP_Staging(struct EnergyPlus::EnergyPlusData &)\" (?ManageHWFC_CH_AWHP_Staging@ChillerHeaterSupervisoryOperationData@DataPlant@EnergyPlus@@QEAAXAEAUEnergyPlusData@3@@Z)"
+    }
   ],
   "test_results": [
 
@@ -69,10 +82,10 @@ performance_test_count: 0
     "permalink": "C.D.S.-Development-d19c4d332558e0db92361cc414f9b7a3bc146c06-Win64-Windows-10-VisualStudio-16.html",
     "tags": "data",
     "layout": "ci_results",
-    "date": "2024-08-02 16:18:34",
+    "date": "2024-08-02 16:20:16",
     "unhandled_failure": false,
-    "build_error_count": 0,
-    "build_warning_count": 0,
+    "build_error_count": 1,
+    "build_warning_count": 1,
     "package_error_count": 0,
     "package_warning_count": 0,
     "test_count": 0,
@@ -95,10 +108,10 @@ performance_test_count: 0
     "pull_request_base_repository": "",
     "pull_request_base_ref": "",
     "device_id": "Win64-Windows-10-VisualStudio-16",
-    "pending": true,
+    "pending": false,
     "analyze_only": false,
-    "build_time": null,
-    "test_time": null,
+    "build_time": 99.874998,
+    "test_time": 1.468819,
     "package_time": null,
     "install_time": null,
     "results_repository": "FSEC/decent_ci_results",
