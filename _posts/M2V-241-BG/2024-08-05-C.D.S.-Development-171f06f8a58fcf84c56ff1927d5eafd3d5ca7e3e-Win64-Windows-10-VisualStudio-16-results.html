@@ -3,9 +3,9 @@ title: C.D.S.-Development-171f06f8a58fcf84c56ff1927d5eafd3d5ca7e3e-Win64-Windows
 permalink: C.D.S.-Development-171f06f8a58fcf84c56ff1927d5eafd3d5ca7e3e-Win64-Windows-10-VisualStudio-16.html
 tags: data
 layout: ci_results
-date: '2024-08-05 23:08:10'
+date: '2024-08-06 00:26:33'
 unhandled_failure: false
-build_error_count: 0
+build_error_count: 4
 build_warning_count: 0
 package_error_count: 0
 package_warning_count: 0
@@ -29,10 +29,10 @@ pull_request_issue_id: ''
 pull_request_base_repository: ''
 pull_request_base_ref: ''
 device_id: Win64-Windows-10-VisualStudio-16
-pending: true
+pending: false
 analyze_only: false
-build_time: 
-test_time: 
+build_time: 1300.453585
+test_time: 0.562553
 package_time: 
 install_time: 
 results_repository: FSEC/decent_ci_results
@@ -55,7 +55,34 @@ performance_test_count: 0
 ---
 {
   "build_results": [
-
+    {
+      "filename": "CMakeLists.txt",
+      "linenumber": 1,
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "CMake Error: File C:/run_ci/ci_runs2/clone_branch/testfiles/PythonPlugin1ZoneUncontrolledCondFD.py does not exist.; CMake Error at src/EnergyPlus/CMakeLists.txt:1126 (configure_file):"
+    },
+    {
+      "filename": "CMakeLists.txt",
+      "linenumber": 1,
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "RESOLVED_PYTHON_LIBRARY=C:/Python/Python39/libs/python39.lib; CMake Error: File C:/run_ci/ci_runs2/clone_branch/testfiles/PythonPlugin1ZoneUncontrolledCondFD.idf does not exist.; CMake Error at src/EnergyPlus/CMakeLists.txt:1124 (configure_file):"
+    },
+    {
+      "filename": "src/EnergyPlus/CMakeLists.txt",
+      "linenumber": "1124",
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": "configure_file Problem configuring file; "
+    },
+    {
+      "filename": "src/EnergyPlus/CMakeLists.txt",
+      "linenumber": "1126",
+      "colnumber": 0,
+      "messagetype": "error",
+      "message": ""
+    }
   ],
   "test_results": [
 
@@ -69,9 +96,9 @@ performance_test_count: 0
     "permalink": "C.D.S.-Development-171f06f8a58fcf84c56ff1927d5eafd3d5ca7e3e-Win64-Windows-10-VisualStudio-16.html",
     "tags": "data",
     "layout": "ci_results",
-    "date": "2024-08-05 23:08:10",
+    "date": "2024-08-06 00:26:33",
     "unhandled_failure": false,
-    "build_error_count": 0,
+    "build_error_count": 4,
     "build_warning_count": 0,
     "package_error_count": 0,
     "package_warning_count": 0,
@@ -95,10 +122,10 @@ performance_test_count: 0
     "pull_request_base_repository": "",
     "pull_request_base_ref": "",
     "device_id": "Win64-Windows-10-VisualStudio-16",
-    "pending": true,
+    "pending": false,
     "analyze_only": false,
-    "build_time": null,
-    "test_time": null,
+    "build_time": 1300.453585,
+    "test_time": 0.562553,
     "package_time": null,
     "install_time": null,
     "results_repository": "FSEC/decent_ci_results",
