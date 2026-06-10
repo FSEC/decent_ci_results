@@ -3,10 +3,10 @@ title: trace-engine-lib-d007c461b0f92de4c836eecce8977e1a45ff9ad6-Win64-Windows-1
 permalink: trace-engine-lib-d007c461b0f92de4c836eecce8977e1a45ff9ad6-Win64-Windows-10-VisualStudio-16.html
 tags: data
 layout: ci_results
-date: '2026-06-10 00:39:36'
-unhandled_failure: false
+date: '2026-06-10 01:20:19'
+unhandled_failure: true
 build_error_count: 0
-build_warning_count: 0
+build_warning_count: 36
 package_error_count: 0
 package_warning_count: 0
 test_count: 0
@@ -29,9 +29,9 @@ pull_request_issue_id: ''
 pull_request_base_repository: ''
 pull_request_base_ref: ''
 device_id: Win64-Windows-10-VisualStudio-16
-pending: true
+pending: false
 analyze_only: false
-build_time: 
+build_time: 2374.437186
 test_time: 
 package_time: 
 install_time: 
@@ -55,12 +55,263 @@ performance_test_count: 0
 ---
 {
   "build_results": [
-
+    {
+      "filename": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\map(240,1)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4267 '=': conversion from 'size_t' to '_Ty2', possible loss of data [C:\\run_ci\\ci_runs2\\clone_branch\\build\\tst\\EnergyPlus\\component\\component_test_objects.vcxproj]"
+    },
+    {
+      "filename": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\utility(186,48)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4267 'initializing': conversion from 'size_t' to '_Ty2', possible loss of data [C:\\run_ci\\ci_runs2\\clone_branch\\build\\tst\\EnergyPlus\\component\\component_test_objects.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\src\\EnergyPlus\\ChillerIndirectAbsorption.cc(2200,41)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4458 declaration of 'FaultyChillerSWTOffset' hides class member [C:\\run_ci\\ci_runs2\\clone_branch\\build\\src\\EnergyPlus\\energypluslib.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(68,9)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs_instance_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(68,9)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0005_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(68,9)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0004_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(68,9)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0001_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(68,9)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0007_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(68,9)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0003_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(68,9)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0002_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(68,9)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0006_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(76,25)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0006_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(76,25)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0004_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(76,25)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0002_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(76,25)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0007_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(76,25)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0003_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(76,25)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0001_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(76,25)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0005_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(76,25)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs_instance_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(79,23)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0002_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(79,23)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0006_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(79,23)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0003_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(79,23)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0007_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(79,23)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0004_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(79,23)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs_instance_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(79,23)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0005_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(79,23)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0001_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(82,27)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0004_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(82,27)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0006_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(82,27)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0003_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(82,27)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0002_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(82,27)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs_instance_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(82,27)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0005_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(82,27)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0001_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\include\\libtk205\\rs_instance_factory.h(82,27)",
+      "linenumber": 0,
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4996 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\\run_ci\\ci_runs2\\clone_branch\\third_party\\libtk205\\src\\rs0007_factory.cpp) [C:\\run_ci\\ci_runs2\\clone_branch\\build\\third_party\\libtk205\\src\\libtk205.vcxproj]"
+    },
+    {
+      "filename": "src/EnergyPlus/PVWatts.cc",
+      "linenumber": "395",
+      "colnumber": 0,
+      "messagetype": "warning",
+      "message": "C4706 assignment within conditional expression"
+    }
   ],
   "test_results": [
 
   ],
-  "failure": null,
+  "failure": "nil can't be coerced into Integer\n[\"C:/run_ci/ci_runs2/decent_ci/lib/runners.rb:19:in `+'\", \"C:/run_ci/ci_runs2/decent_ci/lib/runners.rb:19:in `block in run_scripts'\", \"C:/run_ci/ci_runs2/decent_ci/lib/runners.rb:12:in `each'\", \"C:/run_ci/ci_runs2/decent_ci/lib/runners.rb:12:in `run_scripts'\", \"C:/run_ci/ci_runs2/decent_ci/lib/cmake.rb:193:in `block in cmake_test'\", \"C:/run_ci/ci_runs2/decent_ci/lib/cmake.rb:190:in `each'\", \"C:/run_ci/ci_runs2/decent_ci/lib/cmake.rb:190:in `cmake_test'\", \"C:/run_ci/ci_runs2/decent_ci/lib/potentialbuild.rb:400:in `do_test'\", \"decent_ci/ci.rb:353:in `block (3 levels) in <main>'\", \"decent_ci/ci.rb:261:in `each'\", \"decent_ci/ci.rb:261:in `block (2 levels) in <main>'\", \"decent_ci/ci.rb:252:in `each'\", \"decent_ci/ci.rb:252:in `block in <main>'\", \"C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activesupport-5.2.0/lib/active_support/core_ext/range/each.rb:9:in `each'\", \"C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activesupport-5.2.0/lib/active_support/core_ext/range/each.rb:9:in `each'\", \"decent_ci/ci.rb:178:in `<main>'\"]",
   "package_results": [
 
   ],
@@ -69,10 +320,10 @@ performance_test_count: 0
     "permalink": "trace-engine-lib-d007c461b0f92de4c836eecce8977e1a45ff9ad6-Win64-Windows-10-VisualStudio-16.html",
     "tags": "data",
     "layout": "ci_results",
-    "date": "2026-06-10 00:39:36",
-    "unhandled_failure": false,
+    "date": "2026-06-10 01:20:19",
+    "unhandled_failure": true,
     "build_error_count": 0,
-    "build_warning_count": 0,
+    "build_warning_count": 36,
     "package_error_count": 0,
     "package_warning_count": 0,
     "test_count": 0,
@@ -95,9 +346,9 @@ performance_test_count: 0
     "pull_request_base_repository": "",
     "pull_request_base_ref": "",
     "device_id": "Win64-Windows-10-VisualStudio-16",
-    "pending": true,
+    "pending": false,
     "analyze_only": false,
-    "build_time": null,
+    "build_time": 2374.437186,
     "test_time": null,
     "package_time": null,
     "install_time": null,
